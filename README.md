@@ -19,4 +19,4 @@ A partir de uma compreensão aprofundada sobre como os fundos imobiliários func
 
 ## Resolução do desafio
 
-![Logo da planilha de investimentos](Imagens\planilha_logo.png)
+![Logo da planilha de investimentos](Imagens/planilha_logo.png)
