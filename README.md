@@ -52,7 +52,7 @@ Esta tabela permite alteração no campo de perfil, podemos definir como : Conse
 
 ### Gráfico do Perfil de Investidor
 
-![Gráfico do Perfil de investidor ](grafico_perfil.png)
+![Gráfico do Perfil de investidor ](Imagens/grafico_perfil.png)
 
 Com base nos dados calculados, a planilha plotará um gráfico para análise de dados.
 
