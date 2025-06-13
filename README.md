@@ -72,4 +72,33 @@ A proposta é construir um agregador de dados no qual o usuário possa controlar
 
 ## Resolução do desafio
 
+![Logo da planilha de investimentos](Imagens/Desafio2/planilha_logo.png)
+
+Com esta planilha moderna, a qual podemos navegar através dela com itens clicáveis muito parecida com um app, podemos organizar de forma adequada os informes de rendimento para que facilite a declaração dos mesmos. Tudo organizado em um único lugar, com cálculo de totais e um gráfico gerado para que o usuário consiga observar os valores referente a cada categoria declarada de forma visual.
+
+## Planilha para o Titular
+
+![Planilha do titular](Imagens/Desafio2/titular.png)
+
+Nesta aba, devemos preencher os dados do titular o qual fará a declaração do imposto de renda. Aqui, o usuário somente conseguirá alterar os campos onde ele deve preencher, pois o restante está protegido, como em todo o restante do projeto. O botão de navegação "Próximo", leva o usuário para a próxima página, porém, também é possível navegar através dos botões laterais.
+
+
+## Planilha para os Informes
+
+![Planilha informes](Imagens/Desafio2/informes.png)
+
+Aqui, o usuário deve preencher os dados atuais de cada banco, após realizar o preenchimento de todos os campos, poderemos vizualizar o campo total com o cálculo exato de todos os valores atuais, ou seja, tudo que o usuário possui em conta naquele momento. Nessa aba, além dos botões de navegação lateral, temos os botões "Próximo" e "Anterior", pelos quais é possível ir para a próxima aba ou voltar para a anterior.
+
+## Planilha para as Notas
+
+![Planilha notas](Imagens/Desafio2/notas.png)
+
+Nessa planilha, o usuário deve preencher todos os valores de entrada mês a mês, em categoria, foi definido que ele somente poderá escolher entre as 3 disponíveis definidas pela validação de dados do excel ( HOLERITE, CNPJ, FREELANCE), após preencher todos os dados, o usuário poderá clicar no botão "Gerar Gráfico" para que seja gerado um gráfico conforme os dados de entrada dele.
+
+## Gráfico de notas
+
+![Grafico de notas](Imagens/Desafio2/grafico.png)
+
+O gráfico contém as informações separadas por categorias, esse gráfico só pode ser acessado ao clicar no botão de gerar gráfico.
+
 # Desafio 3
