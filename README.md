@@ -6,6 +6,10 @@
 
 Nesta seção estão todos os desafios de projeto propostos no bootcamp, juntamente com suas respectivas resoluções.
 
+* [Desafio 1 : Planilha de Investimentos](#desafio-1)
+* [Desafio 2 : Planilha moderna para Informe de Rendimentos](#desafio-2) 
+* [Desafio 3 : Ainda não cheguei nele](#desafio-3) 
+
 # Desafio 1
 
 A partir de uma compreensão aprofundada sobre como os fundos imobiliários funcionam e as perguntas típicas dos investidores (quanto investir, por quanto tempo, taxa de rendimento, etc.), o desafio consiste em construir uma planilha que ajude o usuário a realizar essas simulações, auxiliando-o a tomar decisões mais informadas sobre seus investimentos. 
@@ -56,3 +60,16 @@ Esta tabela permite alteração no campo de perfil, podemos definir como : Conse
 
 Com base nos dados calculados, a planilha plotará um gráfico para análise de dados.
 
+# Desafio 2
+
+A proposta é construir um agregador de dados no qual o usuário possa controlar suas entradas de maneira eficiente e validada, com menus de navegação, validações automáticas e funcionalidades extras, como links rápidos. A solução será completamente construída no Excel, com recursos que tornam a ferramenta robusta, mas com uma interface amigável e prática.
+
+## Objetivos de aprendizagem
+
+* Aplicar os conceitos aprendidos em um ambiente prático;
+* Documentar processos técnicos de forma clara e estruturada; 
+* Utilizar o GitHub como ferramenta para compartilhamento de documentação técnica. 
+
+## Resolução do desafio
+
+# Desafio 3
