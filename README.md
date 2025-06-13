@@ -72,7 +72,7 @@ A proposta é construir um agregador de dados no qual o usuário possa controlar
 
 ## Resolução do desafio
 
-![Logo da planilha de investimentos](Imagens/Desafio2/planilha_logo.png)
+![Logo da planilha de investimentos](Imagens/Desafio2/logo.png)
 
 Com esta planilha moderna, a qual podemos navegar através dela com itens clicáveis muito parecida com um app, podemos organizar de forma adequada os informes de rendimento para que facilite a declaração dos mesmos. Tudo organizado em um único lugar, com cálculo de totais e um gráfico gerado para que o usuário consiga observar os valores referente a cada categoria declarada de forma visual.
 
