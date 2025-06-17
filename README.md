@@ -8,7 +8,7 @@ Nesta seção estão todos os desafios de projeto propostos no bootcamp, juntame
 
 * [Desafio 1 : Planilha de Investimentos](#desafio-1)
 * [Desafio 2 : Planilha moderna para Informe de Rendimentos](#desafio-2) 
-* [Desafio 3 : Ainda não cheguei nele](#desafio-3) 
+* [Desafio 3 : Planilha com Dashboard Interativo](#desafio-3) 
 
 # Desafio 1
 
@@ -102,3 +102,74 @@ Nessa planilha, o usuário deve preencher todos os valores de entrada mês a mê
 O gráfico contém as informações separadas por categorias, esse gráfico só pode ser acessado ao clicar no botão de gerar gráfico.
 
 # Desafio 3
+
+Neste desafio, o foco foi criar uma planilha analítica e interativa voltada para o controle de vendas e assinaturas de serviços do tipo *Game Pass*, simulando um cenário empresarial com diferentes tipos de planos e recursos extras, como cupons e passes de temporada. A proposta se baseia em responder a perguntas de negócio fundamentais e construir um dashboard com visual moderno e responsivo no Excel.
+
+## Objetivos de aprendizagem
+
+* Trabalhar com dashboards dinâmicos no Excel;
+* Utilizar fórmulas e automações para análise de dados;
+* Desenvolver visualizações interativas com filtros aplicáveis;
+* Responder perguntas de negócio com base em dados reais ou simulados;
+* Documentar processos técnicos e boas práticas em Excel.
+
+## Resolução do desafio
+
+![Logo da planilha de assinaturas](Imagens/Desafio3/logo.png)
+
+A planilha conta com estrutura modular, organizada em quatro abas principais:
+
+- `Assets`: onde estão armazenadas paletas de cores e elementos visuais;
+- `Bases`: contém a base de dados com todas as assinaturas;
+- `Cálculos`: onde são realizadas análises e respostas às perguntas de negócio;
+- `Dashboard`: interface final para interação e visualização dos resultados.
+
+### Aba "Bases"
+
+![Base de dados](Imagens/Desafio3/bases.png)
+
+Essa aba contém a base de dados com as seguintes colunas principais:
+
+- ID do Assinante  
+- Nome  
+- Data de Início do Plano  
+- Tipo de Renovação (Automática ou Não)  
+- Preço da Assinatura  
+- Tipo de Assinatura (Mensal, Anual, Trimestral)  
+- Inclusão de EA Play e Minecraft  
+- Valores extras por passes  
+- Cupons aplicados  
+- Valor total calculado  
+
+Todos esses dados são utilizados como base para os cálculos e visualizações.
+
+### Perguntas de Negócio
+
+![Perguntas de negócio](Imagens/Desafio3/perguntas.png)
+
+A aba de **Cálculos** é onde ficam centralizadas as perguntas de negócio, todas respondidas com fórmulas e funções avançadas:
+
+1. **Qual o faturamento total por tipo de assinatura?**  
+2. **Quantas assinaturas têm renovação automática?**  
+3. **Qual o impacto dos cupons de desconto no valor final?**  
+4. **Quantas pessoas adquiriram os passes EA Play e Minecraft?**  
+5. **Qual o ticket médio por tipo de plano?**
+
+Essas análises fornecem base para o dashboard visual.
+
+### Dashboard
+
+![Dashboard principal](Imagens/Desafio3/dashboard.png)
+
+A aba `Dashboard` consolida os dados em visualizações interativas, permitindo análises rápidas por meio de gráficos e segmentações. Entre os recursos visuais estão:
+
+- **Gráfico de Barras** comparando o faturamento por tipo de assinatura;
+- **Cartões Resumo** mostrando dados como total de assinantes, receita gerada e número de planos com recursos adicionais;
+- **Slicers (Segmentadores de Dados)** que permitem filtrar por:
+  - Tipo de plano (Mensal, Trimestral, Anual)  
+  - Presença de EA Play  
+  - Presença de Minecraft  
+  - Uso de Cupons  
+  - Renovação automática
+
+Esses filtros tornam a experiência do usuário mais dinâmica, permitindo análises específicas de subgrupos dentro do universo de assinaturas.
